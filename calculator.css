@@ -1,0 +1,56 @@
+
+.formstyle{
+    height: 100%;
+    width: 30%;
+    border: 4px solid black;
+    margin-top: 3%;
+    background-color: rgb(162, 199, 201);
+    border-radius: 10px;
+    box-shadow:  0 01px gray,
+                 01px 0 gray,
+                 01px 02px gray,
+                 02px 01px gray,
+                 02px 03px gray,
+                 03px 02px gray,
+                 03px 04px gray,
+                 04px 03px gray,
+                 04px 05px gray,
+                 05px 04px gray,
+                 05px 06px gray,
+                 06px 05px gray;
+}
+
+.allbutton{
+    padding: 10%;
+    align-items: center;
+}
+.button{
+    width: 20%;
+    border-radius: 2%;
+    box-shadow: 2px 2px black;
+    font-weight: bold;
+}
+.spbn{
+    margin-left: 10%;
+    width: 20%;
+    border-radius: 2%;
+    box-shadow: 2px 2px black;
+    font-weight: bold;
+}
+#textbox{
+    height: 30px;
+    width: 95%;
+    border: 2px solid black;
+    box-shadow: 2px 3px black;
+    background-color: white;
+    font-weight: bold;
+    border-style: double;
+}
+#clear{
+    width: 95%;
+    border-radius: 2%;
+    box-shadow: 2px 2px black;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+

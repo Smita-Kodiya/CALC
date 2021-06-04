@@ -1,0 +1,90 @@
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+{ 
+       .formstyle{
+         margin-left: 20%;
+       }      
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)
+{ 
+       .formstyle{
+         margin-left: 10%;
+         height: 300px;
+       }  
+       #textbox{
+        width: 93%;}    
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)
+{
+      .sec1{
+        display: flex;
+      }
+      .button{
+        height: 20%;
+        font-size: 0.7rem;
+      }
+      .spbn{
+        height: 20%;
+        font-size: 0.5rem;
+      }
+      .formstyle{
+        height: 270px;
+        margin-left: 20%;
+      }
+      #clear{
+        width: 100%;}
+}
+
+@media only screen and (min-device-width: 540px) and (max-device-width: 720px)
+{ 
+  .formstyle{
+    height: 60%;
+  }  
+}
+@media only screen and (min-device-width: 411px) and (max-device-width: 731px)
+{ 
+ #textbox{
+   width: 95%;
+ } 
+ .formstyle{
+  height: 60%;
+  margin-left: 19%;
+}
+}
+@media only screen and (min-device-width: 280px) and (max-device-width: 653px)
+{ 
+
+  .sec1{
+    display: flex;
+  }
+  .button{
+    height: 10%;
+    width: 30%;
+  }
+  .spbn{
+    height: 10%;
+  }
+  .formstyle{
+    width: 60%;
+    margin-left: 20%;
+  }
+  #clear{
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px)
+{ 
+        .spbn{
+          font-size: 0.5rem; }
+        .button{
+          font-size: 0.7rem; }
+        #clear{
+          width: 100%;}
+        #textbox{
+          width: 95%;} 
+        .formstyle{
+          margin-left: 20%;
+          height: 270px;
+        }      
+}
